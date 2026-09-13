@@ -22,20 +22,11 @@ body {
     background-color: #ffffff; 
     padding: 0 8vw; 
     display: flex;
-    justify-content: space-between; 
+    justify-content: flex-end; 
     align-items: center;
     border-bottom: 0.2vh solid #e2e8f0; 
     box-shadow: 0 0.5vh 2vh rgba(10, 37, 64, 0.04);
     z-index: 1000;
-}
-
-#Menubar .logo {
-    font-size: 2.2vw; 
-    font-size: clamp(20px, 2.2vw, 28px);
-    font-weight: bold;
-    color: #0A2540; 
-    text-decoration: none;
-    letter-spacing: 0.05vw;
 }
 
 .menulinks-wrapper {
