@@ -124,13 +124,6 @@ body {
   color: inherit;
 }
 
-.site-text{
-    font-size: 1.5vw
-    color: #0A2540;
-    font-weight: bold;
-    
-}
-
 .Contentarea {
     width: 80vw;
     max-width: 1200px;
