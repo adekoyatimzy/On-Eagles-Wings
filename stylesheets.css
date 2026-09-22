@@ -119,6 +119,11 @@ body {
     align-items: center;
 }
 
+.rccg_logo a.logo {
+  text-decoration: none;
+  color: inherit;
+}
+
 .site-text{
     font-size: 1.5vw
     color: #0A2540;
