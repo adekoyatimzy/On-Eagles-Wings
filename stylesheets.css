@@ -114,14 +114,24 @@ body {
     margin-right: 1vw;
 }
 
-.rccg logo{
+.rccg logo  .logo{
     display: flex;
     align-items: center;
+    gap: 12px;        
+    text-decoration: none;
 }
 
-.rccg_logo a.logo {
+.rccg logo a.logo {
   text-decoration: none;
   color: inherit;
+}
+
+.rccg logo .logo p {
+    color: #FFCC00;
+    font-size: 18px;    
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 .Contentarea {
