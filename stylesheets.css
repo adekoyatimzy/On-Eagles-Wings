@@ -157,11 +157,14 @@ body {
     max-width: 1200px;
     margin: 18vh auto 5vh auto;
     padding: 10vh 4vw;
-    background-color: #0A2540; 
     border-radius: 0.8vh;
     border: 0.1vh solid #e2e8f0;
     box-shadow: 0 1vh 4vh rgba(10, 37, 64, 0.02);
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: homepage-image-slider 15s infinite ease-in-out; 
 }
 
 #homepage.Contentarea h1 {
@@ -178,4 +181,23 @@ body {
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
 }
 
-
+@keyframes homepage-image-slider {
+    0%, 16% {
+        background-image:linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Background image 1.jpg');
+    }
+    20%, 36% {
+        background-image:linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Background image 2.jpg');
+    }
+    40%, 56% {
+        background-image:linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Background image 3.jpg');
+    }
+    60%, 76% {
+        background-image:linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Background image 4.jpg');
+    }
+    80%, 96% {
+        background-image:linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Background image 5.jpg');
+    }
+    100% {
+        background-image:linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Background image 1.jpg');
+    }
+}
