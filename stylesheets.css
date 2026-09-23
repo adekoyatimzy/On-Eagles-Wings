@@ -132,7 +132,7 @@ body {
     width: 80vw;
     max-width: 1200px;
     margin: 18vh auto 5vh auto;
-    padding: 10vh 4vw;
+    padding: 4vh 4vw;
     background-color: #ffffff; 
     border-radius: 0.8vh;
     border: 0.1vh solid #e2e8f0;
@@ -142,15 +142,40 @@ body {
 
 .Contentarea h1 {
     font-size: clamp(28px, 3.5vw, 48px);
+    color: #0A2540;
+    margin-bottom: 3vh;
+}
+
+.Contentarea p {
+    font-size: clamp(16px, 1.4vw, 20px);
+    color: #4a5568;
+    line-height: 1.8;
+}
+
+#homepage.Contentarea {
+    width: 80vw;
+    max-width: 1200px;
+    margin: 18vh auto 5vh auto;
+    padding: 10vh 4vw;
+    background-color: #0A2540; 
+    border-radius: 0.8vh;
+    border: 0.1vh solid #e2e8f0;
+    box-shadow: 0 1vh 4vh rgba(10, 37, 64, 0.02);
+    text-align: center;
+}
+
+#homepage.Contentarea h1 {
+    font-size: clamp(28px, 3.5vw, 48px);
     color: #ffffff !important;
     margin-bottom: 3vh;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
-.Contentarea p {
+#homepage.Contentarea p {
     font-size: clamp(16px, 1.4vw, 20px);
-    color: #f7fafc;
+    color: #f7fafc !important;
     line-height: 1.8;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
 }
+
 
