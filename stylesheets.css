@@ -274,6 +274,6 @@ body {
 }
 
 #contactform button: hover{
-    background-color: #0A2540;
-    color: #FFCC00;
+    background-color: #0066cc;
+    transform: translateY(-1px);
 }
