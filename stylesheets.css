@@ -297,7 +297,7 @@ body {
     .Contentarea, 
     #homepage.Contentarea, 
     #contactpage.Contentarea {
-        width: 100%;
+        width: 90%;
         margin-top: 14vh;
     }
 
