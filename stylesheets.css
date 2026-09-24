@@ -9,7 +9,7 @@ body {
     background-color: #0A2540;
     color: #333333;
     min-height: 100vh; 
-    width: 100vw; 
+    width: auto; 
     overflow-x: hidden; 
 }
 
@@ -219,7 +219,6 @@ body {
     align-items: flex-start; 
     gap: 60px;
     text-align: left;
-    padding: 15h 5vw;
 }
 
 #contactpage .contact-info {
