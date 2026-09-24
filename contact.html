@@ -45,6 +45,22 @@
             <p><strong>Email: </strong> undecided/ N.A.</p>
         </div> 
     </div>
+
+    <form id="contactform" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="THE CHURCH EMAIL KEY"/>
+
+        <label for="visitor-name">Your Name</label>
+        <input type="text" id="visitor-name" name="Name" required placeholder="Enter your full name"/>
+
+        <label for="visitor-email">Email Address</label>
+        <input type="email" id="visitor-email" name="Email" required placeholder="Your email address"/>
+
+        <label for="visitor-message">Message</label>
+        <textarea id="visitor-message" name="Message" rows="5" required placeholder="Your message"/></textarea>
+
+    <button type="submit" id="submitBtn">Send Message</button>
+    </form>
+        
 </div>
 
 </body>
