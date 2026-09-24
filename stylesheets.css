@@ -221,13 +221,13 @@ body {
 }
 
 #contactpage .contactdetails h3 {
-    colour: 0A2540;
+    color: 0A2540;
     font-size: clamp(16px, 1.3vw, 20px);
     margin-bottom: 0.5vh;
 }
 
 #contactpage .contactdetails p {
-    colour: #4a5568 !important;
+    color: #4a5568 !important;
     font-size: clamp(14px, 1.1vw, 16px);
     line-height: 1.5;
     margin: 0;
