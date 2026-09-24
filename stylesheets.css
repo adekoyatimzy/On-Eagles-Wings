@@ -211,3 +211,24 @@ body {
         background-image:linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Background image 1.jpg');
     }
 }
+
+#contactpage .contactdetails {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    text-align: left;
+}
+
+#contactpage .contactdetails h3 {
+    colour: 0A2540;
+    font-size: clamp(16px, 1.3vw, 20px)
+    margin-bottom: 0.5vh;
+}
+
+#contactpage .contactdetails p {
+    colour: #4a5568 !important;
+    font-size: clamp(14px, 1.1vw, 16px)
+    line-height: 1.5;
+    margin: 0;
+}
