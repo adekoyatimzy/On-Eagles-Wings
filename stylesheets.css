@@ -269,4 +269,11 @@ body {
     border-radius: 0.6vh;
     cursor: pointer;
     font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+#contactform button: hover{
+    background-color: #0A2540;
+    color: #FFCC00;
 }
