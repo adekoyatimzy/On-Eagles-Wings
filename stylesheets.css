@@ -284,7 +284,11 @@ body {
 }
 
 #contactpage .social-links-icon i {
-    font-size: 28px;
     color: #0A2540;
     display: inline-block;
+    transition: color 0.2s ease-in-out;
+}
+
+#contactpage .social-links-icon:hover {
+    color: #0066cc;
 }
