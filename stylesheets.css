@@ -292,3 +292,29 @@ body {
 #contactpage .social-links-icon:hover {
     color: #0066cc;
 }
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    .Contentarea, 
+    #homepage.Contentarea, 
+    #contactpage.Contentarea {
+        width: 100%;
+        margin-top: 14vh;
+    }
+
+    #contactpage.Contentarea {
+        flex-direction: column !important; 
+        gap: 40px;
+    }
+
+    #contactpage .contact-info,
+    #contactpage #contactform {
+        width: 100%;
+        min-width: 100%;
+    }
+    
+    .Contentarea p, 
+    #homepage.Contentarea p,
+    #contactpage .contactdetails p {
+        text-align: left !important; 
+    }
+}
