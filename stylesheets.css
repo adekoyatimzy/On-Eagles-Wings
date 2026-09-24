@@ -232,3 +232,41 @@ body {
     line-height: 1.5;
     margin: 0;
 }
+
+#contactpage.Contentarea{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: left;
+    padding: 8vh 5vw;
+}
+
+#contactpage #contactform{
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#contactform input[type="text"],
+#contactform input[type="email"],
+#contactform textarea {
+    padding: 12px;
+    border: 0.15vh solid #e2e8f0;
+    border-radius: 0.6vh;
+    background-color: #f8fafc;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+#contactform button {
+    background-color: #0A2540;
+    color: #FFCC00;
+    border: none;
+    padding: 14px;
+    border-radius: 0.6vh;
+    cursor: pointer;
+    font-weight: bold;
+}
