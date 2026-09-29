@@ -353,7 +353,7 @@ body {
 }
 
 .pastor-section {
-      width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;       
     flex-wrap: wrap;            
@@ -413,6 +413,46 @@ body {
     height: 40vh;          
     object-fit: cover;          
     display: block; 
+}
+
+.church-values {
+    width: 100%;
+    display: flex;
+    flex-direction: row;       
+    flex-wrap: wrap;            
+    align-items: center;        
+    gap: 50px;                  
+    text-align: left;          
+    background-color: #f8fafc;  
+    padding: 6vh 4vw;
+    border-radius: 0.8vh;
+    border: 0.15vh solid #e2e8f0;
+    margin-top: 4vh;  
+}
+
+.values-text {
+   flex: 2;
+    min-width: 320px;  
+}
+
+.values-text h2{
+    color: #0A2540;
+    margin: 0.5vh 0 2vh 0;
+    font-size: clamp(24px, 2.2vw, 32px); 
+}
+
+.values-text ul {
+    padding-left: 20px;          
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;                 
+}
+
+.values-text li {
+    color: #4a5568 !important;  
+    font-size: clamp(15px, 1.2vw, 17px);
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
