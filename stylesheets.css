@@ -352,6 +352,68 @@ body {
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
 }
 
+.pastor-section {
+      width: 100%;
+    display: flex;
+    flex-direction: row;       
+    flex-wrap: wrap;            
+    align-items: center;        
+    gap: 50px;                  
+    text-align: left;          
+    background-color: #f8fafc;  
+    padding: 6vh 4vw;
+    border-radius: 0.8vh;
+    border: 0.15vh solid #e2e8f0;
+    margin-top: 4vh;  
+}
+
+.pastor-textcolumn {
+   flex: 2;
+    min-width: 320px;  
+}
+
+.pstr-subtitle {
+     color: #0066cc;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05vw;  
+}
+
+.pastor-textcolumn h2 {
+    color: #0A2540;
+    margin: 0.5vh 0 2vh 0;
+    font-size: clamp(24px, 2.2vw, 32px);  
+}
+
+.pastor-textcolumn p {
+    color: #4a5568 !important;
+    line-height: 1.7;
+    margin-bottom: 2.5vh;
+    font-size: clamp(14px, 1.1vw, 16px);
+}
+
+.image-column {
+    flex: 1;                    
+    min-width: 280px;
+    display: flex;
+    justify-content: center; 
+}
+
+.pastor-image {
+    width: 100%;
+    max-width: 320px; 
+    box-shadow: 0 1vh 3vh rgba(10, 37, 64, 0.05);
+    border-radius: 0.8vh;
+    overflow: hidden;  
+}
+
+.pst-pic {
+   width: 100%;
+    height: 40vh;          
+    object-fit: cover;          
+    display: block; 
+}
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .Contentarea, 
