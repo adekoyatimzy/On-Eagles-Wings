@@ -456,6 +456,120 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#servicespage.Contentarea {
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    padding: 6vh 4vw;
+    text-align: left;
+}
+
+.services-intro-header {
+    text-align: center; 
+    width: 100%;
+}
+
+.services-intro-header h1 {
+    color: #0A2540;
+    margin-bottom: 1.5vh;
+}
+
+.services-intro-header p {
+    color: #4a5568 !important;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;           
+    justify-content: center;   
+    gap: 30px;                  
+    width: 100%;
+}
+
+.bulletin-card {
+    background-color: #ffffff;
+    border: 0.15vh solid #e2e8f0;
+    border-radius: 0.8vh;
+    overflow: hidden;       
+    flex: 1;
+    min-width: 280px;
+    max-width: 360px;        
+    box-shadow: 0 1vh 3vh rgba(10, 37, 64, 0.02);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-graphic {
+    background-color: #0A2540;  
+    height: 22vh;            
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 2vw;
+    border-bottom: 0.4vh solid #FFCC00; 
+}
+
+.graphic-logo-wrap {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8vh;
+}
+
+.card-logo-img {
+    width: 3.5vw;
+    min-width: 35px;
+    max-width: 55px;
+    height: auto;
+}
+
+.graphic-main-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: clamp(14px, 1.2vw, 17px);
+    letter-spacing: 0.1vw;
+}
+
+.graphic-sub-title {
+    color: #FFCC00;           
+    font-weight: 600;
+    font-size: clamp(10px, 0.9vw, 13px);
+    letter-spacing: 0.05vw;
+    text-transform: uppercase;
+}
+
+.card-info-content {
+    padding: 3.5vh 2.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.card-date-tag {
+    color: #a0aec0;        
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05vw;
+}
+
+.card-info-content h3 {
+    color: #0A2540;
+    font-size: clamp(18px, 1.4vw, 22px);
+    font-weight: 600;
+    margin: 0.5vh 0;
+}
+
+.card-info-content p {
+    color: #718096 !important;  /* Premium reading layout gray */
+    font-size: 14.5px;
+    line-height: 1.5;
+    margin: 0;
+}
+
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .Contentarea, 
     #homepage.Contentarea, 
