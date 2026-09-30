@@ -358,22 +358,23 @@ body {
     flex-direction: row;       
     flex-wrap: wrap;            
     align-items: center;        
-    gap: 50px;                  
+    gap: 25px;                  
     text-align: left;          
     background-color: #f8fafc;  
     padding: 6vh 4vw;
     border-radius: 0.8vh;
     border: 0.15vh solid #e2e8f0;
-    margin-top: 4vh;  
+    margin-top: 4vh;
+    box-sizing: border-box;
 }
 
 .pastor-textcolumn {
    flex: 2;
-    min-width: 320px;  
+   min-width: 0 !important;  
 }
 
 .pstr-subtitle {
-     color: #0066cc;
+    color: #0066cc;
     font-weight: 700;
     font-size: 13px;
     text-transform: uppercase;
@@ -395,7 +396,7 @@ body {
 
 .image-column {
     flex: 1;                    
-    min-width: 280px;
+    min-width: 0 !important;
     display: flex;
     justify-content: center; 
 }
