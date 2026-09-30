@@ -461,7 +461,7 @@ body {
     #contactpage.Contentarea,
     #aboutpage.Contentarea {
         width: 90%;
-        margin-top: 14vh;
+        margin: 14vh auto 5vh auto; 
     }
 
     #contactpage.Contentarea {
