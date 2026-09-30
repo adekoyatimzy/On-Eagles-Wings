@@ -458,7 +458,8 @@ body {
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .Contentarea, 
     #homepage.Contentarea, 
-    #contactpage.Contentarea {
+    #contactpage.Contentarea,
+    #aboutpage.Contentarea {
         width: 90%;
         margin-top: 14vh;
     }
@@ -476,7 +477,60 @@ body {
     
     .Contentarea p, 
     #homepage.Contentarea p,
-    #contactpage .contactdetails p {
+    #contactpage .contactdetails p,
+    .values-text p {
         text-align: left !important; 
     }
+
+    #aboutpage .imagebanner {
+        height: 25vh; 
+    }
+    
+    #aboutpage .page1-text h1 {
+        font-size: 28px; 
+        margin-bottom: 1vh;
+    }
+    
+    #aboutpage .page1-text p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .pastor-section {
+        flex-direction: column-reverse !important; 
+        gap: 25px;
+    }
+    
+    .pastor.textcolumn,
+    .image-column {
+        width: 100%;
+        min-width: 100%;
+    }
+    
+    .pastor-image {
+        max-width: 260px; 
+    }
+    
+    .pst-pic {
+        height: 32vh;
+    }
+
+    .church-values {
+        gap: 20px;
+    }
+    
+    .values-text {
+        width: 100%;
+        min-width: 100%;
+    }
+    
+    .values-text ul {
+        padding-left: 15px;
+        gap: 1.2vh;
+    }
+    
+    .values-text li {
+        font-size: 14px;
+        line-height: 1.5;
+    }    
 }
