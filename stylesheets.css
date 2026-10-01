@@ -776,4 +776,29 @@ body {
     .card-info-content {
         padding: 2.5vh 4vw;
     }    
+
+    .media-gallery-grid {
+        flex-direction: column !important; 
+        gap: 20px;
+    }
+
+    .media-main-image,
+    .media-sidebar-image {
+        width: 100%;
+        min-width: 0 !important;    
+    }
+
+    .media-main-image .gallery-box {
+        min-height: 35vh;          
+    }
+
+    .media-sidebar-image {
+        flex-direction: column !important; 
+        gap: 15px;                         
+    }
+
+    .media-sidebar-image .media-image {
+        height: 20vh;                     
+    }
+  
 }
