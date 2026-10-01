@@ -574,7 +574,8 @@ body {
     .Contentarea, 
     #homepage.Contentarea, 
     #contactpage.Contentarea,
-    #aboutpage.Contentarea {
+    #aboutpage.Contentarea,
+    #servicespage.Contentarea {
         width: 90%;
         margin: 14vh auto 5vh auto; 
     }
@@ -614,12 +615,14 @@ body {
     .pastor-section {
         flex-direction: column-reverse !important; 
         gap: 25px;
+        box-sizing: border-box;
+        width: 100%;
     }
     
     .pastor.textcolumn,
     .image-column {
         width: 100%;
-        min-width: 100%;
+        min-width: 0 !important;
     }
     
     .pastor-image {
@@ -647,5 +650,31 @@ body {
     .values-text li {
         font-size: 14px;
         line-height: 1.5;
+    }    
+
+      .gallery-grid {
+        flex-direction: column !important; 
+        align-items: center;
+        gap: 25px;
+    }
+
+    .bulletin-card {
+        width: 100%;
+        min-width: 0 !important; 
+        max-width: 100%;        
+    }
+
+    .card-graphic {
+        height: 18vh; 
+        padding: 1.5vh 3vw;
+    }
+
+    .card-logo-img {
+        width: 10vw;
+        max-width: 45px;
+    }
+
+    .card-info-content {
+        padding: 2.5vh 4vw;
     }    
 }
