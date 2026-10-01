@@ -598,19 +598,45 @@ body {
         text-align: left !important; 
     }
 
+    #aboutpage .image-text {
+        display: block !important;    
+        position: relative;
+        width: 100%;
+        background-color: #0A2540;    
+        border-radius: 0.8vh;
+        overflow: hidden;
+    }
+
     #aboutpage .imagebanner {
-        height: 25vh; 
+        position: absolute;           
+        left: 0;
+        width: 100%;
+        height: 100% !important;  
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    #aboutpage .page1-text {
+        position: relative !important; 
+        z-index: 3;
+        padding: 6vh 5vw !important;  
+        width: 100%;
     }
     
     #aboutpage .page1-text h1 {
-        font-size: 28px; 
-        margin-bottom: 1vh;
+        font-size: clamp(28px, 6vw, 34px); 
+        margin-top: 1vh;              
+        margin-bottom: 2vh;
+        color: #ffffff;
     }
     
     #aboutpage .page1-text p {
         font-size: 14px;
-        line-height: 1.4;
+        line-height: 1.6;
+        margin-bottom: 1.5vh;
+        color: #f7fafc !important;
     }
+
 
     .pastor-section {
         flex-direction: column-reverse !important; 
