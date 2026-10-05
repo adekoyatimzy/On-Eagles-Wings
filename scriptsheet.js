@@ -12,9 +12,18 @@ document.getElementById('contactform').addEventListener('submit', function(e) {
 
   var formData = new FormData(form);
 
-  fetch('https://api.web3forms.com/submit', {
+  var object = {};
+  formData.forEach(function(value, key) {
+      object[key] = value;
+  });
+  var json = JSON.stringify(object);
+
+  fetch('https://staticforms.dev', {
     method: 'POST',
-    body: formData
+    body: json,
+    headers: {
+        'Content-Type': 'application/json'
+    }
   })
   .then(function(response) {
     return response.json();
@@ -26,7 +35,7 @@ document.getElementById('contactform').addEventListener('submit', function(e) {
       form.reset();
     } else {
       status.style.color = 'red';
-      status.innerText = 'Something went wrong. Please try again.';
+      status.innerText = 'Something went wrong. Please check your API key and try again.';
     }
   })
   .catch(function() {
@@ -38,3 +47,4 @@ document.getElementById('contactform').addEventListener('submit', function(e) {
     btn.innerText = 'Send Message';
   });
 });
+
