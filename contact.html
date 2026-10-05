@@ -68,28 +68,32 @@
             </div>
         </div> 
     </div>
-
-    <form id="contactform" action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="09a3ab16-97d0-4586-a924-dc41859a306d"/>
-
-        <input type="hidden" name="replyto" value="rccg.oneagleswings@yahoo.com">
-
+    
+    <form id="contactform" action="https://api.staticforms.dev/submit" method="POST">
+        
+        <input type="hidden" name="apiKey" value="09a3ab16-97d0-4586-a924-dc41859a306d"/>
+    
+        <input type="hidden" name="subject" value="New Contact Message from RCCG OEW Website"/>
+        
+        <input type="text" name="honeypot" style="display:none"/>
+    
         <label for="visitor-name">Your Name</label>
-        <input type="text" id="visitor-name" name="Name" required placeholder="Enter your full name"/>
-
+        <input type="text" id="visitor-name" name="name" required placeholder="Enter your full name"/>
+    
         <label for="visitor-email">Email Address</label>
-        <input type="email" id="visitor-email" name="Email" required placeholder="Your email address"/>
-
+        <input type="email" id="visitor-email" name="email" required placeholder="Your email address"/>
+    
         <label for="visitor-message">Message</label>
-        <textarea id="visitor-message" name="Message" rows="5" required placeholder="Your message"></textarea>
-
-    <button type="submit" id="submitBtn">Send Message</button>
-
-    <p id="formStatus" style="display: none; font-weight: bold; margin-top: 15px; font-size: 14px;"></p>
-    </form>    
+        <textarea id="visitor-message" name="message" rows="5" required placeholder="Your message"></textarea>
+    
+        <button type="submit" id="submitBtn">Send Message</button>
+    
+        <p id="formStatus" style="display: none; font-weight: bold; margin-top: 15px; font-size: 14px;"></p>
+    </form>
 </div>
+    
+    <script src="script.js"></script>
 
-<script src="/scriptsheet.js"></script>
     
 </body>
 </html>
