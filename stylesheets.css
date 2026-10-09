@@ -804,9 +804,10 @@ body {
 }
 
 #donhere {
-    background-color: #ADD8E6;
+    background-color: #f4f4f4;
     color: #333333;
     overflow-x: hidden; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    text-decoration: none;
 }
