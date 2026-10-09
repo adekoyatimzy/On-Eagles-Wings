@@ -810,4 +810,5 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     text-decoration: none;
+    min-height: min-content;
 }
