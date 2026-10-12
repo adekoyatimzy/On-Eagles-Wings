@@ -570,75 +570,14 @@ body {
     margin: 0;
 }
 
-#mediapage.Contentarea {
-    display: flex;
-    flex-direction: column;
-    gap: 6vh;
-    padding: 6vh 4vw;
-}
-
-.media-header {
-    text-align: center;
-    width: 100%;
-}
-
-.media-header h1 {
-    color: #0A2540;
-    margin-bottom: 1.5vh;
-}
-
-.media-header p {
-    color: #4a5568 !important;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.media-gallery-grid {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;      
-    gap: 30px;                  
-}
-
-.media-main-image {
-    flex: 1.8;                
-    min-width: 320px;
-    border-radius: 0.8vh;
-    overflow: hidden;
-}
-
-.media-main-image .gallery-box {
-    width: 100%;
-    height: 100%;               
-    min-height: 52vh;
-    object-fit: cover;          
-    display: block;
-}
-
-.media-sidebar-image {
-    flex: 1;
-    min-width: 260px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;                 
-}
-
-.media-sidebar-image .media-image {
-    width: 100%;
-    height: 16vh;             
-    border-radius: 0.8vh;
-    overflow: hidden;
-    border: 0.15vh solid #e2e8f0;
-    box-shadow: 0 0.5vh 2vh rgba(10, 37, 64, 0.01);
-}
-
-.media-sidebar-image .gallery-box {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;          
-    display: block;
+#donhere {
+    background-color: #f4f4f4;
+    color: #333333;
+    overflow-x: hidden; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    min-height: min-content;
 }
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
@@ -775,38 +714,4 @@ body {
         padding: 2.5vh 4vw;
     }    
 
-    .media-gallery-grid {
-        flex-direction: column !important; 
-        gap: 20px;
-    }
-
-    .media-main-image,
-    .media-sidebar-image {
-        width: 100%;
-        min-width: 0 !important;    
-    }
-
-    .media-main-image .gallery-box {
-        min-height: 35vh;          
-    }
-
-    .media-sidebar-image {
-        flex-direction: column !important; 
-        gap: 15px;                         
-    }
-
-    .media-sidebar-image .media-image {
-        height: 20vh;                     
-    }
-  
-}
-
-#donhere {
-    background-color: #f4f4f4;
-    color: #333333;
-    overflow-x: hidden; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    min-height: min-content;
 }
