@@ -590,6 +590,27 @@ body {
     font-size: 20px; 
 }
 
+.Don_details {
+    background-color: #f8fafc; 
+    border: 2px solid #0A2540;
+    border-radius: 8px; 
+    padding: 20px 30px; 
+    margin: 3vh auto 0 auto; 
+    max-width: 450px; 
+    text-align: left; 
+}
+
+.Don_details p {
+    font-size: clamp(15px, 1.2vw, 18px) !important;
+    color: #0A2540 !important; 
+    margin-bottom: 1vh !important; 
+    line-height: 1.4 !important;
+}
+
+.Don_details p:last-child {
+    margin-bottom: 0 !important;
+}
+
 @media screen and (max-width: 600px) and (orientation: portrait) {
     .Contentarea, 
     #homepage.Contentarea, 
