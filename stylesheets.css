@@ -580,7 +580,6 @@ body {
     display: flex;
     padding: 40px 0;
     margin: 2vh auto 5vh auto !important;
-    width: 80vw;
 }
 
 #donhere.Contentarea a {
@@ -593,11 +592,11 @@ body {
 
 .Don_details {
     background-color: #f8fafc; 
-    border: 2px solid #0A2540;
-    border-radius: 8px; 
-    padding: 20px 30px; 
+    border: 0.1vh solid #0A2540;
+    border-radius: 0.8vh; 
+    padding: 2.5vh 2vw; 
     margin: 3vh auto 0 auto; 
-    max-width: 450px; 
+    max-width: 35vw; 
     text-align: left; 
 }
 
