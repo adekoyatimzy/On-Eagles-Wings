@@ -578,6 +578,10 @@ body {
     text-decoration: none;
     min-height: min-content;
     background-image:linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Community_Image.png');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
 }
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
@@ -585,7 +589,8 @@ body {
     #homepage.Contentarea, 
     #contactpage.Contentarea,
     #aboutpage.Contentarea,
-    #servicespage.Contentarea {
+    #servicespage.Contentarea,
+    #donhere.Contentarea {
         width: 90%;
         margin: 14vh auto 5vh auto; 
     }
