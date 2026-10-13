@@ -572,13 +572,14 @@ body {
 
 #donhere.Contentarea {
     overflow-x: hidden; 
-    min-height: min-content;
+    min-height: auto !important;
     background-image: linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Community_Image.png');
     background-size: cover;
     background-position: center;
     justify-content: center;
     display: flex;
-    padding: 40px 0; 
+    padding: 40px 0;
+    magin: 2vh auto 5vh auto !important;
 }
 
 #donhere.Contentarea a {
