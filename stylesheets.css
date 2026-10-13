@@ -594,8 +594,7 @@ body {
     #homepage.Contentarea, 
     #contactpage.Contentarea,
     #aboutpage.Contentarea,
-    #servicespage.Contentarea,
-    #donhere.Contentarea {
+    #servicespage.Contentarea, {
         width: 90%;
         margin: 14vh auto 5vh auto; 
     }
@@ -724,4 +723,8 @@ body {
         padding: 2.5vh 4vw;
     }    
 
+    #donhere.Contentarea{
+        width: 90%;
+        margin: 2vh auto 5vh auto;
+    }
 }
