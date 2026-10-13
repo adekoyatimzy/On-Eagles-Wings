@@ -570,8 +570,7 @@ body {
     margin: 0;
 }
 
-#donhere {
-    background-color: #f4f4f4;
+#donhere.Contentarea {
     color: #333333;
     overflow-x: hidden; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
