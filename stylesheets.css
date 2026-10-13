@@ -578,6 +578,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     min-height: min-content;
+    background-image:linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Community_Image.png');
 }
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
