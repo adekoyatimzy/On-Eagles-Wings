@@ -571,17 +571,22 @@ body {
 }
 
 #donhere.Contentarea {
-    color: #333333;
     overflow-x: hidden; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
     min-height: min-content;
-    background-image:linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Community_Image.png');
+    background-image: linear-gradient(rgba(10, 37, 64, 0.6), rgba(10, 37, 64, 0.6)), url('Assets/Community_Image.png');
     background-size: cover;
     background-position: center;
     justify-content: center;
     display: flex;
+    padding: 40px 0; 
+}
+
+#donhere.Contentarea a {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px; 
 }
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
