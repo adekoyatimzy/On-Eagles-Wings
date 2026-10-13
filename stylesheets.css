@@ -580,6 +580,7 @@ body {
     display: flex;
     padding: 40px 0;
     margin: 2vh auto 5vh auto !important;
+    width: 80vw;
 }
 
 #donhere.Contentarea a {
