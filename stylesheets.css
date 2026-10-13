@@ -749,4 +749,15 @@ body {
         width: 80%;
         margin: 2vh auto 5vh auto;
     }
+
+    .Don_details {
+        background-color: #f8fafc; 
+        border: 0.1vh solid #0A2540;
+        border-radius: 0.8vh; 
+        padding: 2.5vh 2vw; 
+        margin: 3vh auto 0 auto; 
+        max-width: 100%; 
+        text-align: left; 
+    }
+    
 }
